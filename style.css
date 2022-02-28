@@ -9,3 +9,23 @@ p {
   color: cadetblue;
   font-weight: bold;
 }
+
+a:link {
+  color: green;
+  text-decoration: yellowgreen;
+}
+
+a:visited {
+  color: blue;
+  text-decoration: blanchedalmond;
+}
+
+a:hover {
+  color: red;
+  text-decoration: papayawhip;
+}
+
+a:active {
+  color: pink;
+  text-decoration: teal;
+}
