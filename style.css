@@ -3,29 +3,59 @@ h1 {
   font-family: sans-serif;
   text-transform: uppercase;
   font-style: italic;
+  color: cadetblue;
+}
+
+h2 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  color: cadetblue;
+}
+
+h3 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  color: cadetblue;
 }
 
 p {
-  color: cadetblue;
+  color: rgb(0, 0, 0);
   font-weight: bold;
 }
 
+/*LINKS*/
+
 a:link {
-  color: green;
-  text-decoration: yellowgreen;
+  color: darkcyan;
+  text-decoration: none;
 }
 
 a:visited {
-  color: blue;
-  text-decoration: blanchedalmond;
+  color: darkcyan;
 }
 
 a:hover {
-  color: red;
-  text-decoration: papayawhip;
+  color: orangered;
+  text-decoration: underline;
 }
 
 a:active {
-  color: pink;
-  text-decoration: teal;
+  color: gold;
+}
+
+.related-link {
+  text-transform: uppercase;
+}
+
+/*STUFF*/
+
+.related {
+  list-style: none;
+}
+
+.related-author {
+  font-size: 18px;
+  font-style: italic;
 }
