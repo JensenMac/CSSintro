@@ -2,10 +2,25 @@
 
 body {
   font-family: sans-serif;
+  border-top: 10px solid cadetblue; /*adds line on top of page*/
+  position: relative;
+}
+
+.container { /*Centers the content*/
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .main-header {
   background-color: whitesmoke;
+  padding: 20px, 40px;
+}
+
+aside {
+  background-color: whitesmoke;
+  border-top: 5px solid cadetblue;
+  border-bottom: 5px solid cadetblue;
+  padding: 50px 40px;
 }
 
 nav {
@@ -44,6 +59,7 @@ p {
 
 li {
   font-size: 20px;
+  margin-bottom: 10px; /*adds a space betwen list items*/
 }
 
 #author {
@@ -63,6 +79,16 @@ li {
   font-size: 14px;
   font-weight: normal;
   font-style: italic;
+}
+
+button {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+
+  padding: 20px;
+  font-size: 22px;
+  cursor: crosshair;
 }
 
 /*LINKS*/
