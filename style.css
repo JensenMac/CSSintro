@@ -1,28 +1,68 @@
+/* MAIN TEXT (BODY, HEADERS, PARAGRAPH)*/
+
+body {
+  font-family: sans-serif;
+}
+
+.main-header {
+  background-color: whitesmoke;
+}
+
+nav {
+  font-size: 18px
+}
+
 h1 {
   font-size: 26px;
-  font-family: sans-serif;
   text-transform: uppercase;
   font-style: italic;
-  color: cadetblue;
 }
 
 h2 {
-  font-family: sans-serif;
-  text-transform: uppercase;
-  font-style: italic;
-  color: cadetblue;
+  font-size: 40px;
 }
 
 h3 {
-  font-family: sans-serif;
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
   text-transform: uppercase;
-  font-style: italic;
-  color: cadetblue;
+  text-align: center;
 }
 
 p {
-  color: rgb(0, 0, 0);
-  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+li {
+  font-size: 20px;
+}
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related {
+  list-style: none;
+}
+
+.related-author {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
 }
 
 /*LINKS*/
@@ -38,24 +78,17 @@ a:visited {
 
 a:hover {
   color: orangered;
+  font-weight: bold;
   text-decoration: underline;
 }
 
 a:active {
-  color: gold;
+  background-color: black;
+  font-style: italic;
 }
 
 .related-link {
-  text-transform: uppercase;
-}
-
-/*STUFF*/
-
-.related {
-  list-style: none;
-}
-
-.related-author {
-  font-size: 18px;
-  font-style: italic;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
 }
